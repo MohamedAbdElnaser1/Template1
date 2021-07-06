@@ -13,35 +13,6 @@ html {
   body {
     font-family: "Work Sans", sans-serif;
   }
-  .over {
-    width: 100vw;
-    height: 100vh;
-    background-color: #4589f1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 111;
-    animation: animate 2s linear forwards;
-  }
-  .over::after {
-    content: "I love Amira from my ♥";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 50px;
-  }
-  @keyframes animate {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-      display: none;
-      z-index: -1;
-    }
-  }
   .container {
       padding: 0 15px 0;
       margin: 0 auto 0;
